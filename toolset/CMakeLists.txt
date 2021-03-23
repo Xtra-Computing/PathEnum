@@ -1,0 +1,5 @@
+ADD_EXECUTABLE(EdgeList2DirectedCSR.out edgelist_to_csr_directed.cpp)
+TARGET_LINK_LIBRARIES(EdgeList2DirectedCSR.out graph log)
+
+ADD_EXECUTABLE(GenerateVertexPairs.out generate_vertex_pairs.cpp)
+TARGET_LINK_LIBRARIES(GenerateVertexPairs.out graph log)
